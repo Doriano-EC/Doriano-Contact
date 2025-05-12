@@ -116,7 +116,8 @@ body {
 @media (max-width: 1000px) {
   body {
     height: auto !important;
-    /* background-size: auto !important; */
+    background-size: auto !important;
+    background-position-y: -7px !important;
   }
 }
 
