@@ -114,6 +114,13 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  body {
+    height: auto;
+    background-size: auto;
+  }
+}
+
 /* spiner_loding */
 .spiner_loding {
   display: flex;
