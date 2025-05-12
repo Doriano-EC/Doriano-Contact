@@ -25,8 +25,7 @@ body {
 }
 
 body {
-  /* background: linear-gradient(30deg, #000000, #bf1e2e); */
-  background: url("../public/imgs/back.png") !important;
+  background: url("../public/imgs/shopping-trolleys-packets-tags.jpg") !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: cover !important;
@@ -117,7 +116,7 @@ body {
 @media (max-width: 1000px) {
   body {
     height: auto !important;
-    background-size: auto !important;
+    /* background-size: auto !important; */
   }
 }
 
