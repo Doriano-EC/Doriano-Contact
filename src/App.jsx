@@ -16,7 +16,6 @@ function App() {
     try {
       const { data, error } = await supabase.from("contacts").select("*");
       if (error) throw error;
-      console.log("🚀 ~ getInstruments ~ data:", data);
 
       setContact(data);
     } catch (error) {

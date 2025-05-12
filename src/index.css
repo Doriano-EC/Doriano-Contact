@@ -26,10 +26,10 @@ body {
 
 body {
   /* background: linear-gradient(30deg, #000000, #bf1e2e); */
-  background: url(./imgs/back.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(./imgs/back.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .contentCard {
