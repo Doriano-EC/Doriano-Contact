@@ -2,6 +2,7 @@ import ContactItem from "./ContactItem";
 import RenderSpinner from "./RenderSpinner";
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
+import Header from "./header";
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
@@ -33,15 +34,7 @@ function App() {
     <div>
       <div className="container-sm d-flex flex-column align-items-center">
         <div className="contentCard d-flex flex-column gap-4 align-items-center">
-          <div className="profileMain d-flex flex-column gap-1 align-items-center">
-            <img src="./imgs/logo-bg.png" alt="" />
-            <h2 className="text-center">DORIANO</h2>
-            <h6 className="text-center">
-              Doriano is an E-Commerce Site. You'll Find The Best Products at
-              The Best Prices. You Can Contact Us Using The Contact Information
-              Below to Order Products. Thank You.
-            </h6>
-          </div>
+          <Header />
           {loading ? (
             <RenderSpinner />
           ) : (
