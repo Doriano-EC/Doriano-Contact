@@ -2,7 +2,7 @@ import ContactItem from "./ContactItem";
 import RenderSpinner from "./RenderSpinner";
 import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
-import Header from "./header";
+import Header from "./Header";
 
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
